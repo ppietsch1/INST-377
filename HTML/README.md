@@ -13,7 +13,7 @@ Updated recently so they can do cooler stuff (e.g., HTML includes more semantic 
 1. The CSS file can include links to other CSS files 
 1. Most HTML tags wrap the thing they are affecting. So, if you want to make a line "header 1", you put `<h1>` at the beginning and `</h1>` at the end. 
 ## Your mission 
-1. Set up a repository as your website. Instructions are here: https://pages.github.com/ For now, just make a page called index.html.
+1. Set up a repository as your website. Instructions are here: https://pages.github.com/ For now, just make a page called index.html. See my example page, here: https://rfollman.github.io/
 1. Clone the repository to your desk top.
 1. In your index file, create a header 1 (try "Hello World", or get creative) line and a header 2 line. Add two paragraphs (use lorem ipsum or copy from somewhere else {try bacon ipsum for grins}). 
 1. Give your index page a title.
@@ -22,7 +22,7 @@ Updated recently so they can do cooler stuff (e.g., HTML includes more semantic 
 1. Create a style to put a border on the top and bottom of a paragraph. 
 1. Create a style that indents a paragraph by one-third of the page width.
 1. Create a style that does something groovy. 
-### Share the URL of your site with me
+### Share the URL of your site with me (ELMS)
 # Resources
 - https://www.w3schools.com/cssref/default.asp
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
