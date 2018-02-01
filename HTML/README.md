@@ -12,7 +12,7 @@ Updated recently so they can do cooler stuff (e.g., HTML includes more semantic 
 1. The HTML document includes a link to the CSS file
 1. The CSS file can include links to other CSS files 
 1. Most HTML tags wrap the thing they are affecting. So, if you want to make a line "header 1", you put `<h1>` at the beginning and `</h1>` at the end. 
-<a href="#assignment"></a>
+
 ## Your mission 
 1. Set up a repository as your website. Instructions are here: https://pages.github.com/ For now, just make a page called index.html. See my example page, here: https://rfollman.github.io/
 1. Clone the repository to your desk top.
