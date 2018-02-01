@@ -22,7 +22,8 @@ Updated recently so they can do cooler stuff (e.g., HTML includes more semantic 
 1. Create a style to put a border on the top and bottom of a paragraph. 
 1. Create a style that indents a paragraph by one-third of the page width.
 1. Create a style that does something groovy. 
-#Resources
+### Share the URL of your site with me
+# Resources
 - https://www.w3schools.com/cssref/default.asp
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
 - https://css-tricks.com/almanac/
