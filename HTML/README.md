@@ -11,4 +11,4 @@ Updated recently so they can do cooler stuff (e.g., HTML includes more semantic 
 ## Just a review
 1. The HTML document includes a link to the CSS file
 1. The CSS file can include links to other CSS files 
-1. Most HTML tags wrap the thing they are affecting. So, if you want to make a line "header 1", you put <h1> at the beginning and </h1> at the end. 
+1. Most HTML tags wrap the thing they are affecting. So, if you want to make a line "header 1", you put `<h1>` at the beginning and `</h1>` at the end. 
