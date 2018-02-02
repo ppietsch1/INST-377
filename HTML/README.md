@@ -29,3 +29,10 @@ Updated recently so they can do cooler stuff (e.g., HTML includes more semantic 
 - https://www.w3schools.com/cssref/default.asp
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
 - https://css-tricks.com/almanac/
+- http://www.csszengarden.com/
+
+# Examples (boring)
+- http://terpconnect.umd.edu/~rfollman/index.shtml
+- http://terpconnect.umd.edu/~rfollman/index-me.html
+- https://provost.umd.edu/
+- https://faculty.umd.edu/
