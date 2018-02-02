@@ -18,7 +18,8 @@ Updated recently so they can do cooler stuff (e.g., HTML includes more semantic 
 1. Clone the repository to your desk top.
 1. In your index file, create a header 1 (try "Hello World", or get creative) line and a header 2 line. Add two paragraphs (use lorem ipsum or copy from somewhere else {try bacon ipsum for grins}). 
 1. Give your index page a title.
-1. Attach a CSS style sheet to the page. The syntax looks like this: `<link rel="stylesheet" href="/css/main-php.css">`. To start, attach the stylesheet you'll find here: https://faculty.umd.edu/css/main-php.css -- that will give you a sense of how the CSS file affects the look of the page. 
+1. Make a table or an unordered list that shows your group members. If you don't have a group put together, you can list the desired specialties for the group you're thinking about. 
+1. Attach a CSS style sheet to the page. The syntax looks like this: `<link rel="stylesheet" href="/css/main-php.css">`. To start, attach the stylesheet you'll find here: https://github.com/RFollman/rfollman.github.io/blob/master/main-php.css -- that will give you a sense of how the CSS file affects the look of the page. 
 1. Make your own style sheet that changes the font of the page. 
 1. Create a style to put a border on the top and bottom of a paragraph. 
 1. Create a style that indents a paragraph by one-third of the page width.
