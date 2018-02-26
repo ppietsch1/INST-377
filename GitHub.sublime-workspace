@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
 				"PTR",
 				"PTR_LINKS"
 			],
@@ -56,20 +60,12 @@
 	"buffers":
 	[
 		{
-			"file": "/C/xampp/htdocs/index.html",
+			"file": "/C/Users/Rebecca/Documents/GitHub/rfollman.github.io/morejs.html",
 			"settings":
 			{
-				"buffer_size": 155,
+				"buffer_size": 1196,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/applications.html",
-			"settings":
-			{
-				"buffer_size": 3833,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -122,10 +118,13 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Rebecca/Documents/GitHub"
+		"/C/Users/Rebecca/Documents/GitHub",
+		"/C/Users/Rebecca/Documents/GitHub/rfollman.github.io"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/applications.html",
+		"/C/xampp/htdocs/index.html",
 		"/C/Users/Rebecca/Documents/GitHub/INST-377/README.md",
 		"/M/htdocs/ci-rpf313/application/models/All_users.php",
 		"/M/htdocs/ci-rpf313/application/controllers/Utility_f.php",
@@ -251,13 +250,11 @@
 		"/O/htdocs/ci-rpf313/application/controllers/Mentors.php",
 		"/M/data/logsrpf/log-2017-07-13.php",
 		"/M/htdocs/ci-rpf313/application/config/config.php",
-		"/M/htdocs/ci-rpf313/application/views/templates/head_bs.php",
-		"/M/htdocs/ci-rpf313/application/views/templates/menu_aep.php",
-		"/M/htdocs/ci-rpf313/application/views/menu_mntbs.php"
+		"/M/htdocs/ci-rpf313/application/views/templates/head_bs.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -344,58 +341,31 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/xampp/htdocs/index.html",
+					"file": "/C/Users/Rebecca/Documents/GitHub/rfollman.github.io/morejs.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 155,
+						"buffer_size": 1196,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								1092,
+								1092
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/xampp/htdocs/applications.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3833,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1566.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -403,7 +373,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -440,7 +410,7 @@
 	"project": "GitHub.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 59.0
 	},
 	"save_all_on_build": true,
 	"select_file":
