@@ -7,7 +7,7 @@ div {
 }
 </style>
 <body>
-
+<h1>Hello world...</h1>
 <?php 
 
 # Comments can be doen with different symbols.
@@ -26,6 +26,8 @@ $d = "hello";
 
 // sometimes you need to case a variable type
 // Concatenation of strings: use a dot (.)
+echo "the value of a is " . $a . "<br>";
+
 echo "a is " . (string)$a . "<br>";
 echo "b is " . (string)$b . "<br>";
 echo ("<br>");
@@ -62,6 +64,27 @@ function test_func($text){
 	echo "<div>$static is a static variable</div>";
 	$static++;
 }
+
+function ourFunction($sample) {
+	echo "<br>The value of our parameter is " . $sample . "<br>";
+	return $sample * 2;
+}
+
+$var = ourFunction(17);
+echo $var . "<br>"; 
+echo ourFunction(23) . "<br>"; 
+
+$names = array('Rebecca', 'Nnamdi', 'Anna', 'Ben');
+foreach ($names as $k => $r) {
+	echo $r . " is in the room (index number " . $k . "). ";
+}
+
+$rawdata = array('Susquehana', 'Talbot', 'South Campus');
+for ($i=0; $i < count($rawdata); $i++) { 
+	echo $rawdata[$i] . " - " . $i . "<br>"; 
+}
+
+$x = array('First' => 'Rebecca', 'Last' => 'Follman')
 
 test_func("first run.");
 test_func("second run.");
