@@ -204,10 +204,99 @@ var organizations = [
 
 <script>
 // outputs the first item of the organizations array. Just for testing.
-console.log(organizations[0]); 
 
+
+var table = '';
+var totals = '<tr>';
+var tableTops = ["Region", "Country", "Country Income Level", "Organization Name", "Organization Type", 
+				"Sectors", "Description", "City", "State/Region", "Founding Year", "Size", 
+				"Type of Data Used", "profileID"];
+var totally = ["Total Rows", "Amount of Unique Countries", "Nonprofit Count", "Oldest Org"]
+
+//for(z = 0; z < organizations.length; z++){
+//console.log(organizations[z]);
+//}
+
+
+for(var z = 0; z < tableTops.length; z++){
+	table += '<th>' + tableTops[z] + '</th>'
+}
+for(var i = 0; i < organizations.length; i++){
+	table += '<tr>';
+	table += '<td>' + organizations[i]["Region"] + '</td>';
+
+	table += '<td>' + organizations[i]["Country"] + '</td>';
+	table += '<td>' + organizations[i]["Country Income Level"] + '</td>';
+	table += '<td>' + organizations[i]["Organization Name"] + '</td>';
+	table += '<td>' + organizations[i]["Organization Type"] + '</td>';
+	table += '<td>' + organizations[i]["Sectors"] + '</td>';
+	table += '<td>' + organizations[i]["Description"] + '</td>';
+	table += '<td>' + organizations[i]["City"] + '</td>';
+	table += '<td>' + organizations[i]["State/Region"] + '</td>';
+	table += '<td>' + organizations[i]["Founding Year"] + '</td>';
+	table += '<td>' + organizations[i]["Size"] + '</td>';
+	table += '<td>' + organizations[i]["Type of Data Used"] + '</td>';
+	table += '<td>' + organizations[i]["profileID"] + '</td>';
+	table += '</tr>';
+}
+document.write('<table border=1>' + table + '</table');
 // Your JavaScript code goes here
+document.addEventListener("DOMContentLoaded", function(event) { 
+	var tr = document.getElementsByTagName("tr");
 
+	for (var i = 0; i < tr.length; i++) {
+		tr[i].addEventListener("mouseover", function() {
+			this.style.backgroundColor = "#FF2000";
+		});
+
+		tr[i].addEventListener("mouseout", function() {
+			this.style.backgroundColor = "transparent";
+		});
+
+		tr[i].addEventListener("click", function(){
+			this.remove();
+		})
+	}
+}
+);
+
+function countem(){
+	return organizations.length;
+}
+
+function uniqCount(){
+	var count = 0
+	var known = []
+	for(i = 0; i < organizations.length; i++){
+		if (known.includes(organizations[i]["Country"])){
+			count += 0;
+		}
+		else{
+			count += 1;
+		}
+		known.push(organizations[i]["Country"])
+	}
+	console.log(known);
+	return count;
+}
+var totally = [{TotalRows : countem(),  UniqueCountries : uniqCount(), NonprofitCount : 0, OldestOrg : 0}];
+var titles = ["Total Rows", "Total Unique Countries", "Amount of Nonprofits", "Oldest Organization"];
+
+for(var z = 0; z < titles.length; z++){
+	totals += '<th>' + titles[z] + '</th>'
+}
+
+ var stats
+   for(i = 0; i < totally.length; i++){
+        totals += '<tr>';
+        totals += '<td>' + totally[i].TotalRows + '</td>';
+        totals += '<td>' + totally[i].UniqueCountries + '</td>';
+        totals += '<td>' + totally[i].NonprofitCount+ '</td>';
+        totals += '<td>' + totally[i].OldestOrg+ '</td>';
+        totals+= '</tr>';
+    }
+
+document.write('<table border=1>' + totals + '</table');
 
 </script>
 
